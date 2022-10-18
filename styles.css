@@ -1,0 +1,44 @@
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.tela {
+    background-color: #a2a7a7;
+    color:white;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    color: #ffffff;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(194, 194, 186);
+}
+
+.especial-button {
+width: 49%;
+}
+
+button:hover {
+cursor: pointer;
+background-color: rgb(182, 178, 178);
+}
+button:active {
+background-color: rgb(136, 136, 136);
+}
